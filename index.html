@@ -3,27 +3,7 @@
 <head>
 <link rel="stylesheet" href="main.css">
 <script type="text/javascript" src="script.js"></script>
-<script type="text/javascript">
-function myFunction() {
-    var x, y, text;
 
-    // Get the value of the input field with id="numb"
-    x = document.getElementById("name").value;
-    y = document.getElementById("name2").value;
-
-    // If x is Not a Number or less than one or greater than 10
-    if (x == "" && y == "") {
-        alert("Please enter two names");
-    } else if (x == "") {
-        alert("Name 1 must be filled out");
-    } else if (y == "") {
-        alert("Name 2 must be filled out");
-    } else {
-        text = "";
-        document.getElementById("demo").innerHTML = text;
-    }
-}
-</script>
  <title>Bootstrap 4 Example</title>
  <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,9 +21,9 @@ function myFunction() {
  <p>Input two names and get a combination of the two!</p>
 </div>
 
-Name 1: <input id="name"> Name 2: <input id="name2">
+Name 1: <input id="name1"> Name 2: <input id="name2">
 
-<button type="button" onclick="nameCombine(name1, name2, output)">Combine</button>
+<button type="button" onclick="getElements()">Combine</button>
 
 <p id="output"></p>
 
