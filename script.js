@@ -13,7 +13,7 @@ function nameCombine(name1, name2, id){
         var firstNameEndIndex = firstVowelIndex(name1);
         var secondNameStartIndex = lastVowelIndex(name2);
         var firstName = name1.substring(0, firstNameEndIndex+1);
-        var secondName = name2.substring(secondNameStartIndex-1, name2.length);
+        var secondName = name2.substring(secondNameStartIndex+1, name2.length);
         var finalName = firstName + secondName;
         document.getElementById(id).innerHTML = finalName;
     }

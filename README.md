@@ -4,3 +4,4 @@ Kalan Hunter
 Paul Thornsen
 
 Simple HTML, CSS, and Javascript all used to create a name creator. Insert two names and watch as they are combined into one!
+Bootstrap 4 is used to automatically adjust the layout.
