@@ -4,7 +4,7 @@ function getElements(event) {
     var div = document.getElementById("output-block");
     
     var name = nameCombine(name1, name2);
-    if (name !== undefined){
+    if (name !== undefined && name.trim() !== ""){
         var id = "output";
         document.getElementById(id).innerHTML = name;
         div.style.display = "inline-block";
