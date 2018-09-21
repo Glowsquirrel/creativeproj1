@@ -1,7 +1,7 @@
 body {
     padding-left: 5vh;
     padding-right: 5vh;
-    padding-top: 10vh;
+    padding-top: 7vh;
     
 }
 
@@ -12,8 +12,17 @@ body {
     margin: auto;
 }
 
+#col1, #col2 {
+    max-width: 600px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 #output-block {
-    padding-top: 5vh;
+    padding-top: 2vh;
     display: none;
 }
 
@@ -24,5 +33,5 @@ body {
 
 #output {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
 }
