@@ -1,10 +1,28 @@
 body {
-    padding-left: 80px;
-    padding-right:80px;
-    padding-top: 60px;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 10vh;
     
 }
 
+.top {
+    text-align: center;
+}
 .container {
     margin: auto;
+}
+
+#output-block {
+    padding-top: 5vh;
+    display: none;
+}
+
+#announce {
+    text-align: center;
+    font-size: 22px;
+}
+
+#output {
+    text-align: center;
+    font-size: 35px;
 }
